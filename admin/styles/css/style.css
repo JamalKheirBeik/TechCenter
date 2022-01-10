@@ -2,4 +2,65 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+}
+:root {
+  /* color pallete */
+  --wetAsphalt: #34495e;
+  --midnightBlue: #2c3e50;
+  --wisteria: #8e44ad;
+  --amethyst: #9b59b6;
+  --belzieHole: #2980b9;
+  --peterRiver: #3498db;
+  --nephritis: #27ae60;
+  --emerald: #2ecc71;
+  --greenSea: #16a085;
+  --turquoise: #1abc9c;
+  --orange: #f39c12;
+  --sunFlower: #f1c40f;
+  --pumpkin: #d35400;
+  --carrot: #e67e22;
+  --pomegranate: #c0392b;
+  --alizarin: #e74c3c;
+  --silver: #bdc3c7;
+  --clouds: #ecf0f1;
+  --asbestos: #7f8c8d;
+  --concrete: #95a5a6;
+}
+body {
+  background-color: var(--concrete);
+}
+/* login page */
+.login {
+  height: 100vh;
+}
+.login,
+.login form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.login form input,
+.login form button {
+  width: 250px;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.login form input {
+  background-color: var(--clouds);
+}
+.login form button {
+  color: var(--clouds);
+  background-color: var(--greenSea);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.login form button:hover {
+  background-color: var(--emerald);
+  color: var(--midnightBlue);
 }

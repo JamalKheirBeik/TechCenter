@@ -15,15 +15,6 @@
 </head>
 
 <body>
-    <div class="container">
-        <?php if (isset($_SESSION['admin'])) { ?>
-            <nav class="glass">
-                <ul>
-                    <li><a href="index.php"><i class="fa fa-home"></i><span class="tooltip">Home</span></a></li>
-                    <li><a href="products.php"><i class="fa fa-desktop"></i><span class="tooltip">Products</span></a></li>
-                    <li><a href="courses.php"><i class="fa fa-graduation-cap"></i><span class="tooltip">Courses</span></a></li>
-                    <li><a href="contact.php"><i class="fa fa-envelope"></i><span class="tooltip">Contact us</span></a></li>
-                    <li><a href="about.php"><i class="fa fa-info"></i><span class="tooltip">About us</span></a></li>
-                </ul>
-            </nav>
-        <?php } ?>
+    <?php if (isset($_SESSION['admin'])) { ?>
+        <nav></nav>
+    <?php } ?>

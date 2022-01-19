@@ -1,6 +1,5 @@
 <?php
-$title = 'Techno home | Home';
-echo strcmp(basename(__FILE__, '.php'), 'index');
+$title = 'Tech center | Home';
 require('./includes/header.php');
 ?>
 <!-- page content goes here -->

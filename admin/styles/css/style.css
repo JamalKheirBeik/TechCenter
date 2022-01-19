@@ -64,3 +64,12 @@ body {
   background-color: var(--emerald);
   color: var(--midnightBlue);
 }
+/* dashboard */
+nav {
+  background-color: var(--midnightBlue);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,5 +1,5 @@
 <?php
-$title = 'Techno home | Products';
+$title = 'Tech center | Products';
 require('./includes/header.php');
 ?>
 <!-- page content goes here -->
